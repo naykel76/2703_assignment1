@@ -1,0 +1,43 @@
+
+@import 'variables';
+
+@import '~nk_jtb/scss/nk_jtb';
+
+#nk-middle{
+    background: rgb(245,245,245);
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+
+.container{
+    max-width: 1000px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.bx{
+    background: #fff;
+}
+
+.icon-trash {
+    height: 1rem;
+    width: 1rem;
+  }
+
+.btn.sm, .sm.btn-success {
+  padding: 0.2rem 0.25rem;
+  font-size: 0.7rem;
+}
+
+.sm.btn-success {
+  padding: 0.16rem 0.25rem;
+  font-size: 0.7rem;
+}
